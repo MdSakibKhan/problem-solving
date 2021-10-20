@@ -1,4 +1,4 @@
-public class ConcatInteger {
+public class LargestConcatIntegerByRotating {
     public static void main(String[] args){
         int [] array = {1,4,18,96};
         int largest = 0;

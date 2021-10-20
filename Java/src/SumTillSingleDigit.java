@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LargestConcatDigitByRotating{
+public class SumTillSingleDigit{
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int sum = 0 ;
@@ -9,3 +9,4 @@ public class LargestConcatDigitByRotating{
         System.out.println(sum);
     }
 }
+
