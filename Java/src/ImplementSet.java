@@ -6,7 +6,6 @@ public class ImplementSet {
         set.add(2);
         set.add(3);
         set.add(4);
-
         for(int i : set) System.out.println(i);
     }
 }
