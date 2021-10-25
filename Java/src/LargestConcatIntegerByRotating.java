@@ -5,8 +5,8 @@ public class LargestConcatIntegerByRotating {
         int size = array.length;
         for (int start = 0; start<size ; start++){
             String num = "";
-            for(int i = start, c=1; i< (start+size) && c<=size ; i = (i+1)%array.length, c++){
-                num+=array[i];
+            for(int i = start; i< (start+size); i++){
+                num+=array[i%size];
             }
             int finalNum = Integer.parseInt(num);
             if(finalNum>largest) largest = finalNum;
