@@ -7,6 +7,10 @@ public class ReverseLinkedListManual {
         mobile1.next = mobile2;
         mobile2.next = mobile3;
 
+        String s = "dasd.dasdas";
+
+        String[] array = s.split(".");
+
         Mobile ReversedHead = null;
 
         for(Mobile m = getReverseList(mobile1) ; m!=null ; m = m.next){
