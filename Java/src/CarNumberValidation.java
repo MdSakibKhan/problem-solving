@@ -1,6 +1,6 @@
 public class CarNumberValidation {
     public static void main(String [] args){
-        String c1 = "Kaa-12-123"; //valid
+        String c1 = "Ka-123-123"; //valid
         String c2 = "Cha-12-123"; //valid
         String c3 = "Kha-123-123"; //invalid
 
